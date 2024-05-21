@@ -78,8 +78,7 @@ export const getTokens = async (): Promise<Tokens> => {
       url: "https://streaming.bitquery.io/eap",
       headers: {
         "Content-Type": "application/json",
-        "X-API-KEY": "BQY7em4KPZ9CMvjl4aUUOPf2hqEBIHF1",
-        Authorization: "Bearer ory....", // put your oauth token here
+        Authorization: "Bearer	ory...", // put your oauth token here
       },
       data: data,
     };
