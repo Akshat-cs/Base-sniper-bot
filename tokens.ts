@@ -79,8 +79,7 @@ export const getTokens = async (): Promise<Tokens> => {
       headers: {
         "Content-Type": "application/json",
         "X-API-KEY": "BQY7em4KPZ9CMvjl4aUUOPf2hqEBIHF1",
-        Authorization:
-          "Bearer ory_at_iD9RjemDjlyDd3rglkroE_gAcSEGiPNeQwt5M5HmY34.ryUfJ68psPMX6271fnI2N0oS3EXroFLv_EFQuilQBc0",
+        Authorization: "Bearer ory....", // put your oauth token here
       },
       data: data,
     };
