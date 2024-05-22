@@ -57,7 +57,7 @@ const buildERC20TokenWithContract = async (
   }
 };
 
-// Example usage for SEPOLIA
+// Example usage for BASE
 const provider = new providers.JsonRpcProvider(process.env.RPC);
 
 type Tokens = {
@@ -78,7 +78,7 @@ export const getTokens = async (): Promise<Tokens> => {
       url: "https://streaming.bitquery.io/eap",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer	ory...", // put your oauth token here
+        Authorization: `Bearer ${process.env.BITQUERY_TOKEN}`, // put your oauth token here
       },
       data: data,
     };

@@ -7,7 +7,6 @@ loadEnvironmentVariables();
 export const WALLET_PRIVATE_KEY = process.env.WALLET_PRIVATE_KEY || "";
 export const SWAP_ROUTER_ADDRESS = process.env.SWAP_ROUTER_ADDRESS || "";
 
-export const INFURA_ID = process.env.INFURA_ID;
 export const CHAIN_ID = parseInt(process.env.CHAIN_ID || "1");
 
 export const DEADLINE = Math.floor(
