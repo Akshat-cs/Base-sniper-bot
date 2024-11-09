@@ -1,5 +1,7 @@
 ## Prerequisites
 
+Demo - https://youtu.be/0T_v2nctLmA?si=pT-25C07k_4lfIP2
+
 1. Node.js and npm installed on your system.
 2. Bitquery Free Developer Account with OAuth token (follow instructions here).
 3. Wallet with some Base ETH for the transaction fees.
